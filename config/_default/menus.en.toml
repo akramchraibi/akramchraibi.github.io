@@ -16,12 +16,12 @@
 
 [[main]]
   name = "**About Me**"
-  pageRef = "Blog/file.md"
+  pageRef = "Posts/Welcome.md"
   weight = 20
 
 [[main]]
   name = "**Posts**"
-  pageRef = "Posts"
+  pageRef = "Posts/"
   weight = 20
   
 [[main]]
@@ -33,6 +33,20 @@
   parent = "**Socials**"
   pre = "github"
   url = "https://github.com/akramchraibi"
+  weight = 20
+  
+[[main]]
+  name = "Linkedin"
+  parent = "**Socials**"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/in/akram-chraibi/"
+  weight = 20
+
+[[main]]
+  name = "X"
+  parent = "**Socials**"
+  pre = "twitter"
+  url = "https://x.com/real__akram"
   weight = 20
 
 #[[main]]
